@@ -132,11 +132,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="boid_unit.cpp" />
+    <ClCompile Include="3. arrival.cpp" />
+    <ClCompile Include="bird.cpp" />
+    <ClCompile Include="steeringbehaviour.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="4. flocking.cpp" />
+    <ClCompile Include="5. leader following.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="2. pursue slash evade.cpp" />
+    <ClCompile Include="1. seek slash flee.cpp" />
+    <ClCompile Include="6. wander.cpp" />
+    <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="boid_unit.h" />
+    <ClInclude Include="arrival.h" />
+    <ClInclude Include="bird.h" />
+    <ClInclude Include="flee.h" />
+    <ClInclude Include="flocking.h" />
+    <ClInclude Include="pursue.h" />
+    <ClInclude Include="state.h" />
+    <ClInclude Include="steeringbehaviour.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="temp.h" />
+    <ClInclude Include="utility.h" />
+    <ClInclude Include="wander.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
